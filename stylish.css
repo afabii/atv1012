@@ -1,0 +1,41 @@
+body{
+
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+}
+
+p{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+}
+
+table{
+	border: solid;
+	border-color: black;
+	border-width: 7px;
+	width: 50%;
+	background-color: white;
+	border-collapse: collapse;
+}
+
+td{
+	border-right: 2px solid #ddd;
+	text-align: center;
+	height: 40px;
+	padding: 20px 0;
+	border-bottom: 2px solid #ddd;
+}
+
+td:hover{
+	background-color: lavender;
+}
+
+ul{
+	list-style-position: inside;
+	font-size: 20px;
+	text-align: center;
+}

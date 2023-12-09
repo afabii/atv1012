@@ -1,0 +1,67 @@
+body{
+	background-color: white;
+}
+
+p{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+table{
+	border: solid;
+	border-color: black;
+	border-width: 7px;
+	width: 100%;
+	background-color: white;
+	border-collapse: collapse;
+}
+
+td{
+	border-right: 2px solid #ddd;
+	text-align: center;
+	height: 40px;
+	padding: 20px 0;
+	border-bottom: 2px solid #ddd;
+}
+
+td:hover{
+	background-color: lavender;
+}
+
+/* unvisited link */
+a:link {
+	text-decoration: none;
+ 	color: black;
+}
+
+/* visited link */
+a:visited {
+	text-decoration: none;
+ 	color: purple;
+  ;
+}
+
+/* mouse over link */
+a:hover {
+	text-decoration: underline;
+ 	color: blue;
+}
+
+/* selected link */
+a:active {
+	text-decoration: underline;
+	color: blue;
+}
+
+h1{
+	text-align: left;
+	color: black;
+	font-size: 20px;
+}
+
+ul{
+	list-style-position: inside;
+	font-size: 20px;
+	text-align: left;
+}

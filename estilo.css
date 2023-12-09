@@ -1,0 +1,52 @@
+body{
+}
+
+p{
+	color: black;
+	font-size: 25px;
+	text-align: center; 
+}
+
+h1{
+	color: black;
+	font-size: 30px;
+	text-align: left;
+}
+
+h2{
+	color: black;
+	font-size: 25px;
+	text-align: left;
+}
+
+ul{
+	list-style-position: inside;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* unvisited link */
+a:link {
+	font-size: 20px;
+	text-decoration: none;
+ 	color: black;
+}
+
+/* visited link */
+a:visited {
+	text-decoration: none;
+ 	color: brown;
+  ;
+}
+
+/* mouse over link */
+a:hover {
+	text-decoration: underline;
+ 	color: chocolate;
+}
+
+/* selected link */
+a:active {
+	text-decoration: underline;
+	color: blue;
+}
